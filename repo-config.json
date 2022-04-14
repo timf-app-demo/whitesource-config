@@ -1,8 +1,10 @@
 {
   "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "baseBranches": []
+    "configMode": "EXTERNAL",
+    "configExternalURL": "https://raw.githubusercontent.com/timf-app-demo/whitesource-config/main/whitesource.config",
+    "baseBranches": [],
+    "enableLicenseViolations": "true",
+    "displayLicenseViolations": "true"
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
