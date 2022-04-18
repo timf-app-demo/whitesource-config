@@ -4,6 +4,7 @@
     "configExternalURL": "https://raw.githubusercontent.com/timf-app-demo/whitesource-config/main/whitesource.config",
     "baseBranches": [],
     "enableLicenseViolations": "true",
+    "enableIaC": "true",
     "displayLicenseViolations": "true"
   },
   "checkRunSettings": {
@@ -15,6 +16,7 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
+    "extends": ["github>whitesource/merge-confidence:beta","config:base"],
     "workflowRules": {
       "enabled": true
     }
