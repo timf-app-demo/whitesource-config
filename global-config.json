@@ -1,3 +1,4 @@
 {
-  "repoConfigMode": "createOnboardingPR"
+  "repoConfigMode": "createOnboardingPR",
+  "enableCustomProductMapping": true
 }
