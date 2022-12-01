@@ -16,7 +16,6 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
-    "enableRenovate": "true",
     "extends": ["github>whitesource/merge-confidence:beta","config:base"],
     "workflowRules": {
       "enabled": true
