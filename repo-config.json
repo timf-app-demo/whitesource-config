@@ -2,7 +2,7 @@
   "scanSettings": {
     "configMode": "EXTERNAL",
     "configExternalURL": "https://raw.githubusercontent.com/timf-app-demo/whitesource-config/main/whitesource.config",
-    "baseBranches": ["master", "main", "dev", "features"],
+    "baseBranches": ["master", "main", "dev", "features", "develop"],
     "enableLicenseViolations": "true",
     "enableIaC": "true",
     "displayLicenseViolations": "true"
