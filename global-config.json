@@ -1,4 +1,5 @@
 {
   "repoConfigMode": "createOnboardingPR",
-  "enableCustomProductMapping": true
+  "enableCustomProductMapping": true,
+  "CVSSv3": true
 }
